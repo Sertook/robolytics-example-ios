@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171BD1CD22D60169000198DE /* robolytics.json in Resources */ = {isa = PBXBuildFile; fileRef = 171BD1CC22D60169000198DE /* robolytics.json */; };
 		1743BCB622AFC4BB00C50BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743BCB522AFC4BB00C50BF4 /* AppDelegate.swift */; };
 		1743BCB822AFC4BB00C50BF4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743BCB722AFC4BB00C50BF4 /* FirstViewController.swift */; };
 		1743BCBA22AFC4BB00C50BF4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743BCB922AFC4BB00C50BF4 /* SecondViewController.swift */; };
@@ -15,6 +16,10 @@
 		1743BCC222AFC4BC00C50BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1743BCC022AFC4BC00C50BF4 /* LaunchScreen.storyboard */; };
 		1743BCCD22AFC4BD00C50BF4 /* Robolytics_Example_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743BCCC22AFC4BD00C50BF4 /* Robolytics_Example_iOSTests.swift */; };
 		1743BCD822AFC4BD00C50BF4 /* Robolytics_Example_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743BCD722AFC4BD00C50BF4 /* Robolytics_Example_iOSUITests.swift */; };
+		177D3B4A22AFC65400A7BB56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 177D3B4922AFC65400A7BB56 /* GoogleService-Info.plist */; };
+		1E267C281A68FADE475EA577 /* Pods_Robolytics_Example_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E19A5032C9D80232497B5C7 /* Pods_Robolytics_Example_iOSUITests.framework */; };
+		C34EDF7FA02E7D9BF38164F9 /* Pods_Robolytics_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B0285837653CD3639DC0E5 /* Pods_Robolytics_Example_iOS.framework */; };
+		FFECB499D2604E67A5230237 /* Pods_Robolytics_Example_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774697FDFC702AE6DF32AFAF /* Pods_Robolytics_Example_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B0285837653CD3639DC0E5 /* Pods_Robolytics_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robolytics_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		171BD1CC22D60169000198DE /* robolytics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = robolytics.json; sourceTree = "<group>"; };
 		1743BCB222AFC4BB00C50BF4 /* Robolytics Example iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robolytics Example iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1743BCB522AFC4BB00C50BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1743BCB722AFC4BB00C50BF4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		1743BCD322AFC4BD00C50BF4 /* Robolytics Example iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robolytics Example iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1743BCD722AFC4BD00C50BF4 /* Robolytics_Example_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robolytics_Example_iOSUITests.swift; sourceTree = "<group>"; };
 		1743BCD922AFC4BD00C50BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177D3B4922AFC65400A7BB56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		310E5DEEAFA25BB8293688CC /* Pods-Robolytics Example iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOS.release.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOS/Pods-Robolytics Example iOS.release.xcconfig"; sourceTree = "<group>"; };
+		59C6D09E54C1070D2E27647A /* Pods-Robolytics Example iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOSUITests/Pods-Robolytics Example iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D0809DEC5E053821E6AF6F2 /* Pods-Robolytics Example iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOSTests/Pods-Robolytics Example iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E19A5032C9D80232497B5C7 /* Pods_Robolytics_Example_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robolytics_Example_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774697FDFC702AE6DF32AFAF /* Pods_Robolytics_Example_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robolytics_Example_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5576EBCFF30F77ABDD1FF90 /* Pods-Robolytics Example iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOSTests/Pods-Robolytics Example iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B74CD38C4884900273812FA8 /* Pods-Robolytics Example iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOSUITests/Pods-Robolytics Example iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF99135DC42B0D2356AC6EE2 /* Pods-Robolytics Example iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robolytics Example iOS.debug.xcconfig"; path = "Target Support Files/Pods-Robolytics Example iOS/Pods-Robolytics Example iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34EDF7FA02E7D9BF38164F9 /* Pods_Robolytics_Example_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFECB499D2604E67A5230237 /* Pods_Robolytics_Example_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E267C281A68FADE475EA577 /* Pods_Robolytics_Example_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				1743BCCB22AFC4BD00C50BF4 /* Robolytics Example iOSTests */,
 				1743BCD622AFC4BD00C50BF4 /* Robolytics Example iOSUITests */,
 				1743BCB322AFC4BB00C50BF4 /* Products */,
+				FC2D241714729511284AE6E5 /* Pods */,
+				C5A51780183F2BAC566F008B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,8 @@
 		1743BCB422AFC4BB00C50BF4 /* Robolytics Example iOS */ = {
 			isa = PBXGroup;
 			children = (
+				171BD1CC22D60169000198DE /* robolytics.json */,
+				177D3B4922AFC65400A7BB56 /* GoogleService-Info.plist */,
 				1743BCB522AFC4BB00C50BF4 /* AppDelegate.swift */,
 				1743BCB722AFC4BB00C50BF4 /* FirstViewController.swift */,
 				1743BCB922AFC4BB00C50BF4 /* SecondViewController.swift */,
@@ -128,6 +151,29 @@
 			path = "Robolytics Example iOSUITests";
 			sourceTree = "<group>";
 		};
+		C5A51780183F2BAC566F008B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B0285837653CD3639DC0E5 /* Pods_Robolytics_Example_iOS.framework */,
+				774697FDFC702AE6DF32AFAF /* Pods_Robolytics_Example_iOSTests.framework */,
+				5E19A5032C9D80232497B5C7 /* Pods_Robolytics_Example_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC2D241714729511284AE6E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF99135DC42B0D2356AC6EE2 /* Pods-Robolytics Example iOS.debug.xcconfig */,
+				310E5DEEAFA25BB8293688CC /* Pods-Robolytics Example iOS.release.xcconfig */,
+				A5576EBCFF30F77ABDD1FF90 /* Pods-Robolytics Example iOSTests.debug.xcconfig */,
+				5D0809DEC5E053821E6AF6F2 /* Pods-Robolytics Example iOSTests.release.xcconfig */,
+				B74CD38C4884900273812FA8 /* Pods-Robolytics Example iOSUITests.debug.xcconfig */,
+				59C6D09E54C1070D2E27647A /* Pods-Robolytics Example iOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1743BCDC22AFC4BD00C50BF4 /* Build configuration list for PBXNativeTarget "Robolytics Example iOS" */;
 			buildPhases = (
+				82C68729D833B48DEECB7137 /* [CP] Check Pods Manifest.lock */,
 				1743BCAE22AFC4BB00C50BF4 /* Sources */,
 				1743BCAF22AFC4BB00C50BF4 /* Frameworks */,
 				1743BCB022AFC4BB00C50BF4 /* Resources */,
+				BBD9A059DA45084B234223D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1743BCDF22AFC4BD00C50BF4 /* Build configuration list for PBXNativeTarget "Robolytics Example iOSTests" */;
 			buildPhases = (
+				9610501B51270C5404BFDBC1 /* [CP] Check Pods Manifest.lock */,
 				1743BCC422AFC4BD00C50BF4 /* Sources */,
 				1743BCC522AFC4BD00C50BF4 /* Frameworks */,
 				1743BCC622AFC4BD00C50BF4 /* Resources */,
@@ -170,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1743BCE222AFC4BD00C50BF4 /* Build configuration list for PBXNativeTarget "Robolytics Example iOSUITests" */;
 			buildPhases = (
+				ADD31DE2E7C8DA83C33ABFBE /* [CP] Check Pods Manifest.lock */,
 				1743BCCF22AFC4BD00C50BF4 /* Sources */,
 				1743BCD022AFC4BD00C50BF4 /* Frameworks */,
 				1743BCD122AFC4BD00C50BF4 /* Resources */,
@@ -233,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1743BCC222AFC4BC00C50BF4 /* LaunchScreen.storyboard in Resources */,
+				177D3B4A22AFC65400A7BB56 /* GoogleService-Info.plist in Resources */,
 				1743BCBF22AFC4BC00C50BF4 /* Assets.xcassets in Resources */,
 				1743BCBD22AFC4BB00C50BF4 /* Main.storyboard in Resources */,
+				171BD1CD22D60169000198DE /* robolytics.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +305,107 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82C68729D833B48DEECB7137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robolytics Example iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9610501B51270C5404BFDBC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robolytics Example iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD31DE2E7C8DA83C33ABFBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robolytics Example iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD9A059DA45084B234223D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Robolytics Example iOS/Pods-Robolytics Example iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${PODS_ROOT}/Robolytics/Robolytics.framework",
+				"${PODS_ROOT}/Robolytics/Robolytics.framework.dSYM",
+				"${PODS_ROOT}/Robolytics/Robolytics.framework/Frameworks/Robolytics_Common.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Robolytics.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Robolytics.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Robolytics_Common.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Robolytics Example iOS/Pods-Robolytics Example iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1743BCAE22AFC4BB00C50BF4 /* Sources */ = {
@@ -434,6 +587,7 @@
 		};
 		1743BCDD22AFC4BD00C50BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF99135DC42B0D2356AC6EE2 /* Pods-Robolytics Example iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +605,7 @@
 		};
 		1743BCDE22AFC4BD00C50BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310E5DEEAFA25BB8293688CC /* Pods-Robolytics Example iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +623,7 @@
 		};
 		1743BCE022AFC4BD00C50BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5576EBCFF30F77ABDD1FF90 /* Pods-Robolytics Example iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +644,7 @@
 		};
 		1743BCE122AFC4BD00C50BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0809DEC5E053821E6AF6F2 /* Pods-Robolytics Example iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		1743BCE322AFC4BD00C50BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74CD38C4884900273812FA8 /* Pods-Robolytics Example iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +685,7 @@
 		};
 		1743BCE422AFC4BD00C50BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C6D09E54C1070D2E27647A /* Pods-Robolytics Example iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

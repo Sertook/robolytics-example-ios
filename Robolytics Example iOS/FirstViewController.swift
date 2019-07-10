@@ -7,8 +7,21 @@
 //
 
 import UIKit
+import Robolytics
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, RobolyticsDataExtractor {
+    
+    @IBAction func buttonClicked(_ sender: Any) {
+        print("button clicked")
+        Robolytics.track("button_event", type: "action", data: ["mykey" : "value"])
+        
+    }
+    func robolyticsDataExtract(eventBuilder: EventBuilder, name: String) {
+        eventBuilder.extract(key: "Screen", data: "FirstView")
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
